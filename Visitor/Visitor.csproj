@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Employees\Clerk.cs" />
     <Compile Include="Employees\Director.cs" />
-    <Compile Include="Classes\Element.cs" />
+    <Compile Include="Interfaces\IElement.cs" />
     <Compile Include="Classes\Employee.cs" />
     <Compile Include="Classes\Employees.cs" />
     <Compile Include="Visitors\IncomeVistor.cs" />
