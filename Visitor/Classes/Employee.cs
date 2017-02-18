@@ -3,7 +3,7 @@
     /// <summary>
     /// The 'ConcreteElement' class
     /// </summary>
-    class Employee : IElement
+    public abstract class Employee : IElement
     {
         private string _name;
         private double _income;
