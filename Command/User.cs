@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DoFactory.GangOfFour.Command.RealWorld
 {
@@ -47,8 +44,7 @@ namespace DoFactory.GangOfFour.Command.RealWorld
         public void Compute(char @operator, int operand)
         {
             // Create command operation and execute it
-            ICommand command = new CalculatorCommand(
-              _calculator, @operator, operand);
+            ICommand command = new CalculatorCommand(_calculator, @operator, operand);
             command.Execute();
 
             // Add command to undo list

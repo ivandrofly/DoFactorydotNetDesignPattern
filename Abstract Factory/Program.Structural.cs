@@ -106,7 +106,7 @@ namespace DoFactory.GangOfFour.Abstract.Structural
     {
         public override void Interact(AbstractProductA a)
         {
-            Console.WriteLine(this.GetType().Name +
+            Console.WriteLine(GetType().Name +
               " interacts with " + a.GetType().Name);
         }
     }
@@ -125,7 +125,7 @@ namespace DoFactory.GangOfFour.Abstract.Structural
     {
         public override void Interact(AbstractProductA a)
         {
-            Console.WriteLine(this.GetType().Name +
+            Console.WriteLine(GetType().Name +
               " interacts with " + a.GetType().Name);
         }
     }

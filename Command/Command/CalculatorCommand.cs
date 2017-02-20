@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace DoFactory.GangOfFour.Command.RealWorld
 {
-
-
     /// <summary>
     /// The 'ConcreteCommand' class
     /// </summary>
@@ -18,12 +11,11 @@ namespace DoFactory.GangOfFour.Command.RealWorld
         private Calculator _calculator;
 
         // Constructor
-        public CalculatorCommand(Calculator calculator,
-          char @operator, int operand)
+        public CalculatorCommand(Calculator calculator, char @operator, int operand)
         {
-            this._calculator = calculator;
-            this._operator = @operator;
-            this._operand = operand;
+            _calculator = calculator;
+            _operator = @operator;
+            _operand = operand;
         }
 
         // Gets operator

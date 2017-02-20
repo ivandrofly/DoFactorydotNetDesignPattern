@@ -18,10 +18,10 @@ namespace DoFactory.GangOfFour.Decorator.RealWorld
         // Constructor
         public Video(string director, string title, int numCopies, int playTime)
         {
-            this._director = director;
-            this._title = title;
-            this.NumCopies = numCopies;
-            this._playTime = playTime;
+            _director = director;
+            _title = title;
+            NumCopies = numCopies;
+            _playTime = playTime;
         }
 
         public override void Display()

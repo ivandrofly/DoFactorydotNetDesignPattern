@@ -106,7 +106,7 @@ namespace DoFactory.GangOfFour.Abstract.RealWorld
         public override void Eat(Herbivore h)
         {
             // Eat Wildebeest
-            Console.WriteLine(this.GetType().Name +
+            Console.WriteLine(GetType().Name +
               " eats " + h.GetType().Name);
         }
     }
@@ -126,7 +126,7 @@ namespace DoFactory.GangOfFour.Abstract.RealWorld
         public override void Eat(Herbivore h)
         {
             // Eat Bison
-            Console.WriteLine(this.GetType().Name +
+            Console.WriteLine(GetType().Name +
               " eats " + h.GetType().Name);
         }
     }

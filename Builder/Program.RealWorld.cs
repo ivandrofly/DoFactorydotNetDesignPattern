@@ -187,7 +187,7 @@ namespace DoFactory.GangOfFour.Builder.RealWorld
         // Constructor
         public Vehicle(string vehicleType)
         {
-            this._vehicleType = vehicleType;
+            _vehicleType = vehicleType;
         }
 
         // Indexer

@@ -46,7 +46,7 @@ namespace DoFactory.GangOfFour.Prototype.Structural
         // Constructor
         public Prototype(string id)
         {
-            this._id = id;
+            _id = id;
         }
 
         // Gets id
@@ -72,7 +72,7 @@ namespace DoFactory.GangOfFour.Prototype.Structural
         // Returns a shallow copy
         public override Prototype Clone()
         {
-            return (Prototype)this.MemberwiseClone();
+            return (Prototype)MemberwiseClone();
         }
     }
 
@@ -90,7 +90,7 @@ namespace DoFactory.GangOfFour.Prototype.Structural
         // Returns a shallow copy
         public override Prototype Clone()
         {
-            return (Prototype)this.MemberwiseClone();
+            return (Prototype)MemberwiseClone();
         }
     }
 }

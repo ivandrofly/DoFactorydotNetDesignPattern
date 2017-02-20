@@ -56,9 +56,9 @@ namespace DoFactory.GangOfFour.Prototype.RealWorld
         // Constructor
         public Color(int red, int green, int blue)
         {
-            this._red = red;
-            this._green = green;
-            this._blue = blue;
+            _red = red;
+            _green = green;
+            _blue = blue;
         }
 
         // Create a shallow copy
@@ -68,7 +68,7 @@ namespace DoFactory.GangOfFour.Prototype.RealWorld
               "Cloning color RGB: {0,3},{1,3},{2,3}",
               _red, _green, _blue);
 
-            return this.MemberwiseClone() as ColorPrototype;
+            return MemberwiseClone() as ColorPrototype;
         }
     }
 

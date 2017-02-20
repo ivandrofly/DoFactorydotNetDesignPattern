@@ -1,7 +1,4 @@
-﻿
-using System;
-using System.Collections.Generic;
-
+﻿using System;
 namespace DoFactory.GangOfFour.Command.RealWorld
 {
     /// <summary>

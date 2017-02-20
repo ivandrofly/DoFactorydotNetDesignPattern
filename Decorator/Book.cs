@@ -17,9 +17,9 @@ namespace DoFactory.GangOfFour.Decorator.RealWorld
         // Constructor
         public Book(string author, string title, int numCopies)
         {
-            this._author = author;
-            this._title = title;
-            this.NumCopies = numCopies;
+            _author = author;
+            _title = title;
+            NumCopies = numCopies;
         }
 
         public override void Display()

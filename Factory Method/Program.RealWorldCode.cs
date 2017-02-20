@@ -117,7 +117,7 @@ namespace DoFactory.GangOfFour.Factory.RealWorld
         // Constructor calls abstract Factory method
         public Document()
         {
-            this.CreatePages();
+            CreatePages();
         }
 
         public List<Page> Pages
