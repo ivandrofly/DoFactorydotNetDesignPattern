@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Calculator.cs" />
     <Compile Include="Command\CalculatorCommand.cs" />
-    <Compile Include="Command\Command.cs" />
+    <Compile Include="Command\ICommand.cs" />
     <Compile Include="Program.RealWordCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />

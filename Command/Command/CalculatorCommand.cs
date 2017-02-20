@@ -11,7 +11,7 @@ namespace DoFactory.GangOfFour.Command.RealWorld
     /// <summary>
     /// The 'ConcreteCommand' class
     /// </summary>
-    class CalculatorCommand : Command
+    class CalculatorCommand : ICommand
     {
         private char _operator;
         private int _operand;
@@ -39,13 +39,13 @@ namespace DoFactory.GangOfFour.Command.RealWorld
         }
 
         // Execute new command
-        public override void Execute()
+        public void Execute()
         {
             _calculator.Operation(_operator, _operand);
         }
 
         // Unexecute last command
-        public override void UnExecute()
+        public void UnExecute()
         {
             _calculator.Operation(Undo(_operator), _operand);
         }

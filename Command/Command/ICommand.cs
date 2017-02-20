@@ -8,11 +8,11 @@ namespace DoFactory.GangOfFour.Command.RealWorld
 {
 
     /// <summary>
-    /// The 'Command' abstract class
+    /// The 'Command' Interface
     /// </summary>
-    abstract class Command
+    interface ICommand
     {
-        public abstract void Execute();
-        public abstract void UnExecute();
+        void Execute();
+        void UnExecute();
     }
 }

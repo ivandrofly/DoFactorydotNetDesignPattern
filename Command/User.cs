@@ -13,7 +13,7 @@ namespace DoFactory.GangOfFour.Command.RealWorld
     {
         // Initializers
         private Calculator _calculator = new Calculator();
-        private List<Command> _commands = new List<Command>();
+        private List<ICommand> _commands = new List<ICommand>();
         private int _current = 0;
 
         public void Redo(int levels)
@@ -24,7 +24,7 @@ namespace DoFactory.GangOfFour.Command.RealWorld
             {
                 if (_current < _commands.Count - 1)
                 {
-                    Command command = _commands[_current++];
+                    ICommand command = _commands[_current++];
                     command.Execute();
                 }
             }
@@ -38,7 +38,7 @@ namespace DoFactory.GangOfFour.Command.RealWorld
             {
                 if (_current > 0)
                 {
-                    Command command = _commands[--_current] as Command;
+                    ICommand command = _commands[--_current] as ICommand;
                     command.UnExecute();
                 }
             }
@@ -47,7 +47,7 @@ namespace DoFactory.GangOfFour.Command.RealWorld
         public void Compute(char @operator, int operand)
         {
             // Create command operation and execute it
-            Command command = new CalculatorCommand(
+            ICommand command = new CalculatorCommand(
               _calculator, @operator, operand);
             command.Execute();
 
