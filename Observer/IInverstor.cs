@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Observer
+namespace DoFactory.GangOfFour.Observer.RealWorld
 {
-    class Program
+    interface IInvestor
     {
-        static void Main(string[] args)
-        {
-        }
+        void Update(Stock stock);
     }
 }

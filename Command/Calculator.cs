@@ -18,9 +18,7 @@ namespace DoFactory.GangOfFour.Command.RealWorld
                 case '*': _curr *= operand; break;
                 case '/': _curr /= operand; break;
             }
-            Console.WriteLine(
-              "Current value = {0,3} (following {1} {2})",
-              _curr, @operator, operand);
+            Console.WriteLine("Current value = {0,3} (following {1} {2})", _curr, @operator, operand);
         }
     }
 }
