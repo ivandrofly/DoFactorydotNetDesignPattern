@@ -42,12 +42,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.Structural.cs" />
+    <Compile Include="Read world code\Continent\AfricaFactory.cs" />
+    <Compile Include="Read world code\Continent\AmericaFactory.cs" />
+    <Compile Include="Read world code\Animals\AnimalWorld.cs" />
+    <Compile Include="Read world code\Animals\Bison.cs" />
+    <Compile Include="Read world code\Animals\Carnivore.cs" />
+    <Compile Include="Read world code\Continent\ContinentFactory.cs" />
+    <Compile Include="Read world code\Animals\Herbivore.cs" />
+    <Compile Include="Read world code\Animals\Lion.cs" />
+    <Compile Include="Structural codes\AbstractFactory.cs" />
+    <Compile Include="Structural codes\AbstractProductA.cs" />
+    <Compile Include="Structural codes\AbstractProductB.cs" />
+    <Compile Include="Structural codes\Client.cs" />
+    <Compile Include="Structural codes\ConcreteFactory1.cs" />
+    <Compile Include="Structural codes\ConcreteFactory2.cs" />
+    <Compile Include="Structural codes\Products\ProductA1.cs" />
+    <Compile Include="Structural codes\Products\ProductA2.cs" />
+    <Compile Include="Structural codes\Products\ProductB1.cs" />
+    <Compile Include="Structural codes\Products\ProductB2.cs" />
+    <Compile Include="Structural codes\Program.Structural.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Read world code\Animals\Wildebeest.cs" />
+    <Compile Include="Read world code\Animals\Wolf.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <Compile Include="Program.RealWorldCode.cs" />
+    <Compile Include="Read world code\Program.RealWorldCode.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Participants.txt" />
