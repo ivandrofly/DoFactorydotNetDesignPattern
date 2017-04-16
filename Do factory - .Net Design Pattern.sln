@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{5EA68B2D-F6FF-4490-BBCF-7E7797036077}"
 EndProject
@@ -54,6 +54,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{21F4D812-3118-4BB7-A1D1-85BFDA20AA34}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template Method", "Template Method\Template Method.csproj", "{659E048D-1F8D-466D-B262-080E8BE5F103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{B4BE9923-6A62-40AB-AFDC-AD292AFEBE69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{659E048D-1F8D-466D-B262-080E8BE5F103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{659E048D-1F8D-466D-B262-080E8BE5F103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{659E048D-1F8D-466D-B262-080E8BE5F103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BE9923-6A62-40AB-AFDC-AD292AFEBE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BE9923-6A62-40AB-AFDC-AD292AFEBE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BE9923-6A62-40AB-AFDC-AD292AFEBE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BE9923-6A62-40AB-AFDC-AD292AFEBE69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,5 +187,6 @@ Global
 		{1F2CAAE0-4BFF-424F-82F4-BE4DBF23BD30} = {5210D741-A652-4DDE-94E1-ACE571B51A35}
 		{21F4D812-3118-4BB7-A1D1-85BFDA20AA34} = {5210D741-A652-4DDE-94E1-ACE571B51A35}
 		{659E048D-1F8D-466D-B262-080E8BE5F103} = {5210D741-A652-4DDE-94E1-ACE571B51A35}
+		{B4BE9923-6A62-40AB-AFDC-AD292AFEBE69} = {4A46F10E-8B98-46DE-91A3-D83C858A0387}
 	EndGlobalSection
 EndGlobal
