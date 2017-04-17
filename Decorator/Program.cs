@@ -29,6 +29,7 @@ namespace DoFactory.GangOfFour.Decorator.RealWorld
             borrowvideo.BorrowItem("Customer #1");
             borrowvideo.BorrowItem("Customer #2");
             borrowvideo.Display();
+
             // Wait for user
             Console.ReadKey();
 

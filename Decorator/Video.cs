@@ -26,6 +26,7 @@ namespace DoFactory.GangOfFour.Decorator.RealWorld
 
         public override void Display()
         {
+            // /add a black list before writing 
             Console.WriteLine("\nVideo ----- ");
             Console.WriteLine(" Director: {0}", _director);
             Console.WriteLine(" Title: {0}", _title);

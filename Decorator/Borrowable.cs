@@ -14,10 +14,8 @@ namespace DoFactory.GangOfFour.Decorator.RealWorld
         protected List<string> borrowers = new List<string>();
 
         // Constructor
-        public Borrowable(LibraryItem libraryItem)
-          : base(libraryItem)
+        public Borrowable(LibraryItem libraryItem) : base(libraryItem)
         {
-
         }
 
         public void BorrowItem(string name)

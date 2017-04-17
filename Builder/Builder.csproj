@@ -42,8 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.RealWorld.cs" />
-    <Compile Include="Program.Structural.cs" />
+    <Compile Include="RealWorld\CarBuilder.cs" />
+    <Compile Include="RealWorld\IVehicleBuilder.cs" />
+    <Compile Include="RealWorld\MotorCycleBuilder.cs" />
+    <Compile Include="RealWorld\Program.cs" />
+    <Compile Include="RealWorld\ScooterBuilder.cs" />
+    <Compile Include="RealWorld\Shop.cs" />
+    <Compile Include="RealWorld\Vehicle.cs" />
+    <Compile Include="Structural\Program.Structural.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
